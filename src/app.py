@@ -1,3 +1,5 @@
+
+
 """
 High School Management System API
 
@@ -25,19 +27,120 @@ activities = {
         "description": "Learn strategies and compete in chess tournaments",
         "schedule": "Fridays, 3:30 PM - 5:00 PM",
         "max_participants": 12,
-        "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
+        "participants": ["michael@mergington.edu", "daniel@mergington.edu"],
+        "category": "Intellectual"
     },
     "Programming Class": {
         "description": "Learn programming fundamentals and build software projects",
         "schedule": "Tuesdays and Thursdays, 3:30 PM - 4:30 PM",
         "max_participants": 20,
-        "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
+        "participants": ["emma@mergington.edu", "sophia@mergington.edu"],
+        "category": "Intellectual"
     },
     "Gym Class": {
         "description": "Physical education and sports activities",
         "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
         "max_participants": 30,
-        "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+        "participants": ["john@mergington.edu", "olivia@mergington.edu"],
+        "category": "Sports"
+    },
+    "Swimming Team": {
+        "description": "Build endurance and compete in swimming meets",
+        "schedule": "Tuesdays and Thursdays, 4:00 PM - 5:30 PM",
+        "max_participants": 15,
+        "participants": ["liam@mergington.edu", "noah@mergington.edu"],
+        "category": "Sports"
+    },
+    "Soccer Club": {
+        "description": "Practice teamwork and play friendly soccer matches",
+        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 18,
+        "participants": ["ava@mergington.edu", "ethan@mergington.edu"],
+        "category": "Sports"
+    },
+    "Drama Club": {
+        "description": "Theater arts and performance training",
+        "schedule": "Tuesdays, 4:00 PM - 6:00 PM",
+        "max_participants": 25,
+        "participants": [],
+        "category": "Artistic"
+    },
+    "Art Studio": {
+        "description": "Express creativity through painting and drawing",
+        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 15,
+        "participants": [],
+        "category": "Artistic"
+    },
+    "Math Olympiad": {
+        "description": "Solve advanced problems and prepare for math competitions",
+        "schedule": "Tuesdays, 3:30 PM - 4:45 PM",
+        "max_participants": 10,
+        "participants": ["alex@mergington.edu", "zoe@mergington.edu"],
+        "category": "Intellectual"
+    },
+    "Science Club": {
+        "description": "Hands-on experiments and scientific exploration",
+        "schedule": "Fridays, 3:30 PM - 5:00 PM",
+        "max_participants": 20,
+        "participants": [],
+        "category": "Intellectual"
+    },
+    "Basketball Team": {
+        "description": "Competitive basketball training and games",
+        "schedule": "Tuesdays and Thursdays, 4:00 PM - 6:00 PM",
+        "max_participants": 15,
+        "participants": [],
+        "category": "Sports"
+    },
+    "Swimming Club": {
+        "description": "Swimming training and water sports",
+        "schedule": "Mondays and Wednesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 20,
+        "participants": [],
+        "category": "Sports"
+    },
+    "Track & Field": {
+        "description": "Train for running, jumping, and field events for meets",
+        "schedule": "Tuesdays and Fridays, 3:30 PM - 5:00 PM",
+        "max_participants": 25,
+        "participants": ["lucas@mergington.edu", "grace@mergington.edu"],
+        "category": "Sports"
+    },
+    "Debate Club": {
+        "description": "Develop public speaking skills and compete in debates",
+        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 18,
+        "participants": ["william@mergington.edu", "isabella@mergington.edu"],
+        "category": "Intellectual"
+    },
+    "Debate Team": {
+        "description": "Learn public speaking and argumentation skills",
+        "schedule": "Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 16,
+        "participants": [],
+        "category": "Intellectual"
+    },
+    "Robotics Club": {
+        "description": "Design, build, and program robots for competitions",
+        "schedule": "Thursdays, 3:30 PM - 5:30 PM",
+        "max_participants": 14,
+        "participants": ["henry@mergington.edu", "scarlett@mergington.edu"],
+        "category": "Intellectual"
+    },
+    "Photography Club": {
+        "description": "Learn composition, editing, and digital photography techniques",
+        "schedule": "Tuesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 16,
+        "participants": ["abigail@mergington.edu", "ella@mergington.edu"],
+        "category": "Artistic"
+    },
+    "Choir": {
+        "description": "Sing together, build vocal technique, and perform at school events",
+        "schedule": "Mondays and Wednesdays, 3:45 PM - 5:00 PM",
+        "max_participants": 20,
+        "participants": ["samantha@mergington.edu", "joshua@mergington.edu"],
+        "category": "Artistic"
     }
 }
 
